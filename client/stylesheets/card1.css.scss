@@ -1,15 +1,40 @@
+@import 'main.css.scss';
+
+
 /************************************
 
   CSS For Card 1 Design
 
 ************************************/
 
+.title-section {
+  margin: 30px 0px;
+}
+
 .card1-area {
-  margin: 90px 0px;
+  margin: 50px 0px;
+}
+
+.card-title {
+  margin: 30px 0;
 }
 
 .section-card {
   background-color: white;
   border-radius: 4px;
-  padding: 20px;
+  color: $card-text-color;
+  margin-bottom: 40px;
+
+  .left-area {
+    background-color: $card-background-color;
+    border-right: 4px solid $light-grey-2;
+    padding: 20px 40px 60px;
+
+    //Have to add border radius to this class as well since it overwrites parent border radius?
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  .right-area {
+    padding: 20px;
+  }
 }

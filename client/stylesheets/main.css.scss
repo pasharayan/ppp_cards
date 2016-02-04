@@ -4,7 +4,16 @@
 
 ************************************/
 
-$dark-grey: #2B3340;
+$light-grey:   #F9F9FB;
+$light-grey-2: #E7E9EC;
+$dark-grey:    #2B3340;
+$dark-blue:    #0E4369;
+$black-blue:   #141E2A;
+
+$background-color: $dark-blue;
+$card-background-color: $light-grey;
+$card-text-color: $black-blue;
+
 
 /************************************
 
@@ -14,7 +23,7 @@ $dark-grey: #2B3340;
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: $dark-grey;
+  background-color: $background-color;
   color: white;
 }
 
@@ -30,5 +39,5 @@ h1, h2, h3, h4 {
 ************************************/
 
 .homepage-section {
-  margin: 80px 0px;
+  margin: 4px 0;
 }
