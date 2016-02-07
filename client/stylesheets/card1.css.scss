@@ -16,7 +16,7 @@
 }
 
 .card-title {
-  margin: 30px 0;
+  margin: 40px 0  ;
 }
 
 .section-card {
@@ -24,17 +24,69 @@
   border-radius: 4px;
   color: $card-text-color;
   margin-bottom: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+
+  h4 {
+    font-size: 1em;
+    margin: 30px 0 15px;
+    text-transform: uppercase;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
 
   .left-area {
-    background-color: $card-background-color;
-    border-right: 4px solid $light-grey-2;
-    padding: 20px 40px 60px;
-
-    //Have to add border radius to this class as well since it overwrites parent border radius?
-    border-radius: 4px 0px 0px 4px;
+    padding: 20px 60px 60px;
   }
 
   .right-area {
+    background-color: $card-background-color;
+    //Have to add border radius to this class as well since it overwrites parent border radius?
+    border-radius: 0px 4px 4px 0px;
     padding: 20px;
+
   }
+}
+
+.custom-checkbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    background-color: none;
+    border: 3px solid #72cc72;
+}
+
+.upgrade-area {
+  font-size: 14px;
+
+  b {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+
 }
