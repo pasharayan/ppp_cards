@@ -1,4 +1,4 @@
-@import 'main.css.scss';
+ @import 'main.css.scss';
 
 
 /************************************
@@ -36,8 +36,20 @@
   }
 
   input {
-    padding: 10px;
     font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+  }
+
+  select {
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
   }
 
   textarea {
@@ -53,8 +65,13 @@
     background-color: $card-background-color;
     //Have to add border radius to this class as well since it overwrites parent border radius?
     border-radius: 0px 4px 4px 0px;
-    padding: 20px;
+    padding: 80px 50px 20px;
+    text-align: center;
 
+    p {
+      font-size: 16px;
+      margin-top: 70px;
+    }
   }
 }
 
@@ -85,7 +102,7 @@
 
   .title {
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 20px;
   }
 

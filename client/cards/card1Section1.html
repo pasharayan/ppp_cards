@@ -7,34 +7,66 @@
       <h4> Choose Category </h4>
       <div class="row">
         <div class="col-md-6">
-          <select class="form-control">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+          <select class="form-control" id="project-category" name="skill_category">
+            <option value="1">
+                Websites IT &amp; Software
+            </option>
+
+            <option value="2">
+                Mobile
+            </option>
+
+            <option value="3">
+                Writing
+            </option>
+
+            <option value="4">
+                Design
+            </option>
+
+            <option value="5">
+                Data Entry
+            </option>
+
+            <option value="6">
+                Product Sourcing &amp; Manufacturing
+            </option>
+
+            <option value="7">
+                Sales &amp; Marketing
+            </option>
+
+            <option value="8">
+                Business, Accounting &amp; Legal
+            </option>
+
+            <option value="9">
+                Local Jobs &amp; Services
+            </option>
+        <option value="-2">Customized (Select skills manually)</option>
+        <option value="-1" selected="selected">Select a category of work (optional)</option>
           </select>
         </div><!-- col -->
         <div class="col-md-6">
-          <select class="form-control">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+          <select class="form-control" id="project-subcategory" name="skill_category">
+            <option>Subcategory (Optional)</option>
           </select>
         </div><!-- col -->
       </div><!-- row -->
       <h4> Project Name </h4>
-      <input type="text" class="form-control" placeholder="e.g. Build a Website">
+      <input type="text" id="project-name" class="form-control" placeholder="e.g. Build a Website">
       <h4> Provide Detailed Description </h4>
       <div class="row">
         <div class="col-md-12">
-          <textarea class="form-control" rows="4" placeholder="Describe yourself here..."></textarea>
+          <textarea class="form-control" id="project-description" rows="4" placeholder="Describe yourself here..."></textarea>
         </div>
       </div><!-- row -->
     </div><!-- left-area -->
     <div class="col-md-4 right-area">
+      <img src="image1.png" width="192">
+      <p>
+        Setting up a good project name is clever, our freelancers will lorem ipsum dolor sit amet consecuter.
+      </p>
     </div><!-- right-area -->
   </div><!-- section-card -->
 </template>
