@@ -3,66 +3,224 @@
     <div class="col-md-8 left-area">
       <div class="card-title">
         <h3>3. Get the most out of your project (Recommended)</h3>
-
+        <br/>
+        <br/>
         <div class="upgrade-area">
-          <hr>
           <!-- Upgrade Card -->
-          <div class="row">
-            <div class="col-md-1">
-              <label class="custom-checkbox"></label>
-            </div><!-- col -->
-            <div class="col-md-9">
-              <span class="label label-warning">Featured</span>
-              <span class="label label-danger">Urgent</span>
-              <span class="label label-info">Sealed</span>
-            </div><!-- col -->
-            <div class="col-md-2 right-align">
-              <b>$31.90</b>
-            </div>
-          </div><!-- row -->
-          <br/>
-          <div class="row">
-            <div class="col-md-1">
-            </div><!-- col -->
-            <div class="col-md-9">
-              <div class="title"> 3 Pack Success Bundle </div>
-              <p>Get 3 upgrades and attract the best freelancers online. Make your job more visible, receive faster responses within 24 hours</p>
-            </div><!-- col -->
-          </div><!-- row -->
-          <hr>
+          <div class="upgrade-block">
+            <div class="row">
+              <div class="col-md-1">
+                <label class="custom-checkbox"></label>
+              </div><!-- col -->
+              <div class="col-md-9">
+                <span class="label label-warning">Featured</span>
+                <span class="label label-danger">Urgent</span>
+                <span class="label label-info">Sealed</span>
+              </div><!-- col -->
+              <div class="col-md-2 right-align">
+                <b>{{currencyTitle}}31.90</b>
+              </div>
+            </div><!-- row -->
+            <br/>
+            <div class="row">
+              <div class="col-md-1">
+              </div><!-- col -->
+              <div class="col-md-9">
+                <div class="title"> 3 Pack Success Bundle </div>
+                <p>Get 3 upgrades and attract the best freelancers online. Make your job more visible, receive faster responses within 24 hours</p>
+              </div><!-- col -->
+            </div><!-- row -->
+          </div><!-- upgrade-block -->
+          <!-- End Upgrade Card -->
+
           <!-- Upgrade Card -->
-          <div class="row">
-            <div class="col-md-1">
-              <label class="custom-checkbox"></label>
-            </div><!-- col -->
-            <div class="col-md-9">
-              <span class="label label-purple">Recruiter</span>
-            </div><!-- col -->
-            <div class="col-md-2 right-align">
-              <b>$31.90</b>
-            </div>
-          </div><!-- row -->
+          <div class="upgrade-block">
+            <div class="row">
+              <div class="col-md-1">
+                <label class="custom-checkbox"></label>
+              </div><!-- col -->
+              <div class="col-md-9">
+                <span class="label label-purple">Recruiter</span>
+              </div><!-- col -->
+              <div class="col-md-2 right-align">
+                <b>{{currencyTitle}}31.90</b>
+              </div>
+            </div><!-- row -->
+            <br/>
+            <div class="row">
+              <div class="col-md-1">
+              </div><!-- col -->
+              <div class="col-md-9">
+                <div class="title"> 250% Higher Success Bundle </div>
+                <p>Get 3 upgrades and attract the best freelancers online. Make your job more visible, receive faster responses within 24 hours</p>
+              </div><!-- col -->
+            </div><!-- row -->
+          </div><!-- upgrade-block -->
+          <!-- End Upgrade Card -->
+
+          <!-- Featured Upgrade Card -->
+          <div class="upgrade-block">
+            <div class="row">
+              <div class="col-md-1">
+                <label class="custom-checkbox"></label>
+              </div><!-- col -->
+              <div class="col-md-9">
+                <span class="label label-warning">Featured</span>
+              </div><!-- col -->
+              <div class="col-md-2 right-align">
+                <b>{{currencyTitle}}31.90</b>
+              </div>
+            </div><!-- row -->
+            <br/>
+            <div class="row">
+              <div class="col-md-1">
+              </div><!-- col -->
+              <div class="col-md-9">
+                <p>I want my project to be listed as a featured project. Featured projects attract more, higher-quality bids and are displayed prominently in the 'Featured Jobs and Contests' page.</p>
+              </div><!-- col -->
+            </div><!-- row -->
+          </div><!-- upgrade-block-->
+          <!-- End Featured Upgrade Card -->
+
+          <!-- Urgent Upgrade Card -->
+          <div class="upgrade-block">
+            <div class="row">
+              <div class="col-md-1">
+                <label class="custom-checkbox"></label>
+              </div><!-- col -->
+              <div class="col-md-9">
+                <span class="label label-danger">Urgent</span>
+              </div><!-- col -->
+              <div class="col-md-2 right-align">
+                <b>{{currencyTitle}}9.90</b>
+              </div>
+            </div><!-- row -->
+            <br/>
+            <div class="row">
+              <div class="col-md-1">
+              </div><!-- col -->
+              <div class="col-md-9">
+                <p>I want my project to be marked as an urgent project. Receive a faster response from freelancers to get your project started within 24 hours!</p>
+              </div><!-- col -->
+            </div><!-- row -->
+          </div><!-- upgrade-block -->
+          <!-- End Urgent Upgrade Card -->
+
+          <div class="hidden-cards" style="display:none">
+
+            <!-- Sealed Upgrade Card -->
+            <div class="upgrade-block">
+              <div class="row">
+                <div class="col-md-1">
+                  <label class="custom-checkbox"></label>
+                </div><!-- col -->
+                <div class="col-md-9">
+                  <span class="label label-info">Sealed</span>
+                </div><!-- col -->
+                <div class="col-md-2 right-align">
+                  <b>{{currencyTitle}}9.90</b>
+                </div>
+              </div><!-- row -->
+              <br/>
+              <div class="row">
+                <div class="col-md-1">
+                </div><!-- col -->
+                <div class="col-md-9">
+                  <p>I want all bids to be sealed so that freelancers cannot see what others are bidding, leading to more accurate, higher quality proposals.</p>
+                </div><!-- col -->
+              </div><!-- row -->
+            </div><!-- upgrade-block -->
+            <!-- End Sealed Upgrade Card -->
+
+            <!-- Private Upgrade Card -->
+            <div class="upgrade-block">
+              <div class="row">
+                <div class="col-md-1">
+                  <label class="custom-checkbox"></label>
+                </div><!-- col -->
+                <div class="col-md-9">
+                  <span class="label label-warning">Private</span>
+                </div><!-- col -->
+                <div class="col-md-2 right-align">
+                  <b>{{currencyTitle}}20.90</b>
+                </div>
+              </div><!-- row -->
+              <br/>
+              <div class="row">
+                <div class="col-md-1">
+                </div><!-- col -->
+                <div class="col-md-9">
+                  <p>I want to hide project details from search engines and users that are not logged in. This feature is recommended for projects where confidentiality is a must.</p>
+                </div><!-- col -->
+              </div><!-- row -->
+            </div><!-- upgrade-block -->
+            <!-- End Private Upgrade Card -->
+
+            <!-- FullTime Upgrade Card -->
+            <div class="upgrade-block">
+              <div class="row">
+                <div class="col-md-1">
+                  <label class="custom-checkbox"></label>
+                </div><!-- col -->
+                <div class="col-md-9">
+                  <span class="label label-success">Full Time</span>
+                </div><!-- col -->
+                <div class="col-md-2 right-align">
+                  <b>{{currencyTitle}}218.90</b>
+                </div>
+              </div><!-- row -->
+              <br/>
+              <div class="row">
+                <div class="col-md-1">
+                </div><!-- col -->
+                <div class="col-md-9">
+                  <p>This project is for hiring a full time or commission-based position (e.g. Sales) and you will save money if you have ongoing work. Fees are only charged if the project value exceeds {{currencyTitle}}5000 USD.</p>
+                </div><!-- col -->
+              </div><!-- row -->
+            </div><!-- upgrade-block -->
+            <!-- End FullTime Upgrade Card -->
+
+            <!-- NDA Upgrade Card -->
+            <div class="upgrade-block">
+              <div class="row">
+                <div class="col-md-1">
+                  <label class="custom-checkbox"></label>
+                </div><!-- col -->
+                <div class="col-md-9">
+                  <span class="label label-primary">NDA</span>
+                </div><!-- col -->
+                <div class="col-md-2 right-align">
+                  <b>{{currencyTitle}}22.00</b>
+                </div>
+              </div><!-- row -->
+              <br/>
+              <div class="row">
+                <div class="col-md-1">
+                </div><!-- col -->
+                <div class="col-md-9">
+                  <p>Freelancers must sign a <a href="https://www.freelancer.com/NDA/NDA-print-contract.php"> Non-disclosure Agreement </a> to work on your project. Freelancers agree to keep details discussed through private messages and files confidential.</p>
+                </div><!-- col -->
+              </div><!-- row -->
+            </div><!-- upgrade-block -->
+            <!-- End NDA Upgrade Card -->
+
+          </div><!-- hidden-cards -->
+
           <br/>
-          <div class="row">
-            <div class="col-md-1">
-            </div><!-- col -->
-            <div class="col-md-9">
-              <div class="title"> 250% Higher Success Bundle </div>
-              <p>Get 3 upgrades and attract the best freelancers online. Make your job more visible, receive faster responses within 24 hours</p>
-            </div><!-- col -->
-          </div><!-- row -->
-          <hr>
+
           <div class="row">
             <div class="col-md-8">
-              <a href="">View More Upgrades</a>
+              <a href="#" class="view-hidden-upgrades">View More Upgrades</a>
             </div><!-- row -->
             <div class="col-md-4 right-align">
-              <b>Total: $31.90</b>
+              <b>Total: {{currencyTitle}}31.90 {{currency}}</b>
               <br/>
               Including GST
             </div><!-- col -->
           </div><!-- row -->
-
+          <br/>
+          <br/>
+          <button type="button" class="btn btn-lg btn-post btn-block">Start your project listing →</button>
         </div><!-- upgrade-area -->
       </div><!-- card-title -->
     </div><!-- left-area -->

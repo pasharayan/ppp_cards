@@ -21,81 +21,41 @@
         <div class="col-md-2">
           <h4> Currency </h4>
           <select class="form-control" id="project-currency" name="currency">
-            <option value="1" title="$">USD
-            </option>
-
-            <option value="3" title="$" selected="">AUD
-            </option>
-
-            <option value="9" title="$">CAD
-            </option>
-
-            <option value="8" title="€">EUR
-            </option>
-
-            <option value="4" title="£">GBP
-            </option>
-
-            <option value="5" title="$">HKD
-            </option>
-
-            <option value="11" title="₹">INR
-            </option>
-
-            <option value="12" title="$">JMD
-            </option>
-
-            <option value="13" title="$">CLP
-            </option>
-
-            <option value="14" title="$">MXN
-            </option>
-
-            <option value="18" title="¥">JPY
-            </option>
-
-            <option value="17" title="kr">SEK
-            </option>
-
-            <option value="16" title="RM">MYR
-            </option>
-
-            <option value="15" title="Rp">IDR
-            </option>
-
-            <option value="2" title="$">NZD
-            </option>
-
-            <option value="7" title="₱">PHP
-            </option>
-
-            <option value="19" title="zł">PLN
-            </option>
-
-            <option value="6" title="$">SGD
-            </option>
-
-            <option value="20" title="R$">BRL
-            </option>
-
-            <option value="10" title="R">ZAR
-            </option>
-
+            <option value="1" title="$">USD</option>
+            <option value="3" title="$" selected="">AUD</option>
+            <option value="9" title="$">CAD</option>
+            <option value="8" title="€">EUR</option>
+            <option value="4" title="£">GBP</option>
+            <option value="5" title="$">HKD</option>
+            <option value="11" title="₹">INR</option>
+            <option value="12" title="$">JMD</option>
+            <option value="13" title="$">CLP</option>
+            <option value="14" title="$">MXN</option>
+            <option value="18" title="¥">JPY</option>
+            <option value="17" title="kr">SEK</option>
+            <option value="16" title="RM">MYR</option>
+            <option value="15" title="Rp">IDR</option>
+            <option value="2" title="$">NZD</option>
+            <option value="7" title="₱">PHP</option>
+            <option value="19" title="zł">PLN</option>
+            <option value="6" title="$">SGD</option>
+            <option value="20" title="R$">BRL</option>
+            <option value="10" title="R">ZAR</option>
             </select>
         </div><!-- col -->
         <div class="col-md-10">
           <h4> Project Size </h4>
             <select class="form-control" id="project-budget" name="budget">
-              <option value="190">Micro Project ($10-30 AUD)</option>
-              <option value="13">Simple project ($30-250 AUD)</option>
-              <option value="14" selected="selected">Very small project ($250-750 AUD)</option>
-              <option value="15">Small project ($750-1500 AUD)</option>
-              <option value="16">Medium project ($1500-3000 AUD)</option>
-              <option value="17">Large project ($3000-5000 AUD)</option>
-              <option value="18">Larger project ($5000-10000 AUD)</option>
-              <option value="231">Very Large project ($10000-20000 AUD)</option>
-              <option value="250">Huge project ($20000-50000 AUD)</option>
-              <option value="269">Major project ($ &gt;50000 AUD)</option>
+              <option value="190">Micro Project ({{currencyTitle}}10-30 {{currency}})</option>
+              <option value="13">Simple project ({{currencyTitle}}30-250 {{currency}})</option>
+              <option value="14" selected="selected">Very small project ({{currencyTitle}}250-750 {{currency}})</option>
+              <option value="15">Small project ({{currencyTitle}}750-1500 {{currency}})</option>
+              <option value="16">Medium project ({{currencyTitle}}1500-3000 {{currency}})</option>
+              <option value="17">Large project ({{currencyTitle}}3000-5000 {{currency}})</option>
+              <option value="18">Larger project ({{currencyTitle}}5000-10000 {{currency}})</option>
+              <option value="231">Very Large project ({{currencyTitle}}10000-20000 {{currency}})</option>
+              <option value="250">Huge project ({{currencyTitle}}20000-50000 {{currency}})</option>
+              <option value="269">Major project ({{currencyTitle}} &gt;50000 {{currency}})</option>
               <option value="custom">Customize budget</option>
             </select>
         </div><!-- col -->

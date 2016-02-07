@@ -2,12 +2,15 @@ $('textarea').autogrow();
 
 Template.card1.helpers({
 
+  currency: function(){
+    return 'AUX';
+  }
 
 });
 
 Template.card1.events({
 
-  'change #project-category': function(e){
+  'change #project-category': function(){
 
     items = [
       {value: 'hello', text: 'hello'},

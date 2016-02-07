@@ -6,14 +6,23 @@
 
 $light-grey:   #F9F9FB;
 $light-grey-2: #E7E9EC;
+$grey:         #C2C2C2;
 $dark-grey:    #2B3340;
 $dark-blue:    #0E4369;
 $black-blue:   #161F2B;
 $purple:       #902DD9;
+$light-blue:   #E4F7FF;
+$cloud-blue:   #A4DFF7;
+$orange:       #f77d0e;
+$dark-orange:  #F06E15;
+$red:          #e02a28;
 
 $background-color: $dark-grey;
 $card-background-color: $light-grey;
 $card-text-color: $black-blue;
+$upgrade-hover-bg: $light-blue;
+$line-color: $grey;
+$line-hover-border: $cloud-blue;
 
 
 /************************************
@@ -52,6 +61,14 @@ h4 {
 
 .label-purple {
   background-color: $purple;
+}
+
+.label-warning {
+  background-color: $orange;
+}
+
+.label-danger {
+  background-color: $red;
 }
 
 /************************************

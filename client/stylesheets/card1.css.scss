@@ -50,6 +50,16 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+  }
+
+  option {
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
   }
 
   textarea {
@@ -106,4 +116,42 @@
     margin-bottom: 20px;
   }
 
+}
+
+#project-subcategory {
+  opacity: 0.2;
+}
+
+.upgrade-block {
+  padding: 20px 10px;
+  margin-top: -1px;
+  border-top: 1px solid $grey;
+  border-bottom: 1px solid $grey;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.upgrade-block:hover {
+  background-color: $upgrade-hover-bg;
+  border-top: 1px solid $line-hover-border;
+  border-bottom: 1px solid $line-hover-border;
+  z-index: 100;
+}
+
+.hidden-cards {
+
+}
+
+.btn-post {
+  padding: 20px;
+  color: white;
+  background-color: $orange;
+  border: 1px solid $dark-orange;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.btn-post:hover {
+  background-color: $dark-orange;
+  color: white;
 }
