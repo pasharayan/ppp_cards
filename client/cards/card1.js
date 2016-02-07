@@ -1,4 +1,4 @@
-$('textarea').autogrow();
+$('textarea').autogrow({fixMinHeight: false});
 
 Template.card1.helpers({
 
