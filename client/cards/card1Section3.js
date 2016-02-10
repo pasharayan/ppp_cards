@@ -15,5 +15,9 @@ Template.card1Section3.events({
     e.preventDefault();
     $('.hidden-cards').show();
     $(e.target).hide();
+  },
+
+  'click .upgrade-block': function(e) {
+    
   }
 });
